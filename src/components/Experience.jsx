@@ -24,6 +24,17 @@ const experiences = [
       "Led end-to-end development, UI/UX design, and marketing strategies.",
     ],
   },
+  {
+    title: "Frontend Developer",
+    company_name: "Business Room AI",
+    iconBg: "#232631",
+    date: "June 2025 - Present",
+    points: [
+      "Developed and optimized user interfaces for a business-focused social networking app.",
+      "Implemented responsive design and performance enhancements for key components like profile and posts.",
+      "Collaborated closely with backend and design teams to ensure seamless UX and fast feature delivery.",
+    ],
+  },
 ];
 
 const ExperienceCard = ({ experience }) => {

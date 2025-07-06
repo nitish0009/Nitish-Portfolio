@@ -24,7 +24,9 @@ import {
 } from '../assets';
 
 import glancia from '../assets/glancia.png';
-import docshow from '../assets/docshow.png';
+import stackshow from '../assets/stackshow.png';
+import devspark from '../assets/devspark.png';
+import polishcv from '../assets/polishcv.png';
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -82,7 +84,7 @@ const projects = [
     image: glancia,
   },
   {
-    name: "DocShow",
+    name: "StackShow",
     description:
       "A document-sharing and showcasing platform made with Node.js and React. It allows users to upload, view, and manage documents securely.",
     tags: [
@@ -90,8 +92,31 @@ const projects = [
       { name: "express", color: "white-text-gradient" },
       { name: "mongodb", color: "green-text-gradient" },
     ],
-    image: docshow,
+    image: stackshow,
+  },
+  {
+    name: "DevSpark",
+    description:
+      "A plastic packaging impact analyzer that evaluates environmental footprints to help businesses make eco-conscious packaging decisions.",
+    tags: [
+      { name: "python", color: "yellow-text-gradient" },
+      { name: "flask", color: "pink-text-gradient" },
+      { name: "data-visualization", color: "green-text-gradient" },
+    ],
+    image: devspark, // Replace with actual image variable
+  },
+  {
+    name: "PolishCv AI",
+    description:
+      "A free, open-source AI-powered resume generator that helps users create polished, professional resumes in seconds — no signups, no subscriptions, just results.",
+    tags: [
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "openai", color: "green-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+    ],
+    image: polishcv, // Replace with actual image variable
   },
 ];
+
 
 export { services, technologies, experiences, projects };

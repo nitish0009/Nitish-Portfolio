@@ -62,15 +62,6 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-
-          <li
-            className={`${
-              active === "Pricing" ? "text-white" : "text-secondary"
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
-            onClick={() => setActive("Pricing")}
-          >
-            <a href="#pricing">Pricing</a>
-          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -113,18 +104,6 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-
-              <li
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === "Pricing" ? "text-white" : "text-secondary"
-                }`}
-                onClick={() => {
-                  setToggle(false);
-                  setActive("Pricing");
-                }}
-              >
-                <a href="#pricing">Pricing</a>
-              </li>
             </ul>
           </div>
         </div>
