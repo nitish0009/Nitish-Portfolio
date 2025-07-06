@@ -11,7 +11,6 @@ Welcome to my personal portfolio website, built to showcase my skills, projects,
 - 🧠 React-based modern UI  
 - 📩 Contact form with EmailJS integration  
 - 💼 Project and work showcase  
-- 💲 Pricing plans for portfolio & business websites  
 
 ---
 
@@ -31,8 +30,7 @@ Welcome to my personal portfolio website, built to showcase my skills, projects,
 - **Hero:** A bold welcome message  
 - **About:** Personal background  
 - **Experience:** Technologies and stack  
-- **Work:** Selected project showcases  
-- **Pricing:** Freelance pricing plans  
+- **Work:** Selected project showcases   
 - **Contact:** Message form with 3D globe  
 - **Footer:** Social links (GitHub, LinkedIn, Instagram)  
 
